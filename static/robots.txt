@@ -1,0 +1,6 @@
+# Robots exclusion standard crawling instructions
+# http://www.robotstxt.org/
+
+# Allow crawling of all content
+User-agent: *
+Disallow:

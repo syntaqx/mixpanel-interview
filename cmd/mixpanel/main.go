@@ -74,7 +74,7 @@ func main() {
 
 	// Simple Health route.
 	r.Get("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("Hello world")
+		renderer.Text(w, http.StatusOK, "Hello World")
 	})
 
 	// Initialize our HTTP server with the configured address.
